@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Laila:wght@300&family=Montserrat:wght@300&display=swap');
+header
+{
+    display: flex;
+    background-image: url(./imágenes/header_wallpaper\ all.png);
+    width: 100%;
+    text-align:right;
+}
+
+nav 
+{
+position: absolute;
+top: 10x;
+right: 0px;
+}
+nav li
+{
+display: inline;
+margin:0 0 0 15px;
+}
+
+h1 
+{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p
+{
+font-size: 16px;
+color: rgb(24, 24, 24);
+}
+
+
+.welcome
+{
+    background-color: #fdf5e7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;-image: url("./imágenes/backgroud_aboutme.jpg");
+    align-items: center;
+    
+}
+
+.welcome h1
+{
+    font-size: 35px;
+    color: rgb(85, 72, 45);
+}
+
+.welcome p
+{
+width: 70%;
+font-size: 24px;
+padding: 10px;
+font-family:  'Inter', sans-serif;
+font-family: 'Laila', sans-serif;
+font-family: 'Montserrat', sans-serif;
+color: #0c0c0c;
+}
+
+img 
+{
+    float: right;
+    width: 300px;
+    margin: 20px;
+    
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color:#ffffff;
+    opacity: inherit;
+}
+.caja 
+{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img
+{
+   border-radius: 10%;
+   
+
+}
+
+.caja p 
+{
+    font-size: 17px;
+    color: #0c0c0c;
+}
+
+
+

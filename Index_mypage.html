@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleindex.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./imágenes/favicon/favicon-32x32.png">
+    
+</head>
+<body>
+  <script src="./index_mypage.js"></script>
+  <header> 
+    <div class="container-fluid">
+      <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <h4 class="text-white">Collapsed content</h4>
+            <span class="text-muted">Toggleable via the navbar brand.</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </nav>
+      </div>
+    </div>
+    </header>
+
+    <div class="container-fluid">
+      <div class="encabezado">
+
+      </div>
+    </div>
+
+    <div class="welcome">
+    <div class = "col-md-4 bg"></div>
+    <div class=" container-fluid"> 
+       <center class="center"> <h1> Web portfolio</h1></center>
+       </div>
+        
+      <div class="container-fluid"> 
+            <h2> Welcome!</h2>
+            <img src="./imágenes/Photo_me.png" alt="Photo_me">
+            <p> 
+              Welcome to my web portfolio! Here, I will showcase my projects focused on creating web pages and applications to enhance digital education. With over ten years of experience as an educator and currently studying programming, I am merging my expertise in pedagogy, andragogy, and educational management with the digital world.
+            </p>
+      </div>
+    </div>
+
+  <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="caja">
+              <img src="./imágenes/aboutme.png" alt="about me">
+              <h2>ABOUT ME </h2>
+              <div class="container-fluid"> <div id=contenido> <p> Discover more about my curriculum vitae and how I have chosen to delve into Information Technologies to build a better future within education </p></div> 
+               <button onclick="muestra_oculta('container-fluid')" class="btn btn-primary" form="contenido">+</button>
+              </div>
+               
+            </div>
+          </div>
+          <div class="col">
+            <div class="caja">
+              <img src="./imágenes/portafolio.png" alt="portafolio">
+              <h2>PORTAFOLIO</h2>
+              <div class="container-fluid"> <div id=contenido2>  <p>In this space, you will be able to observe the various Front-End and Back-End projects as part of my journey as a web developer..
+              </p> <button onclick="muestra_oculta('container-fluid')" class="btn btn-primary" form="contenido2">+</button> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="caja">
+              <img src="./imágenes/blogs.png" alt="portafolio">
+              <h2>BLOGS</h2>
+              <div class="container-fluid"> <div id=contenido3>  <p>
+                Within the blogs, you will discover updated news about technological advancements within the educational field and school management.
+              </p><button onclick="muestra_oculta('container-fluid')" class="btn btn-primary" form="contenido3">+</button> </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+
+
+<div class="Carrusel">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./imágenes/Carrusel/9.png" class="d-block w-100" alt="1">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imágenes/Carrusel/10.png" class="d-block w-100" alt="2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imágenes/Carrusel/11.png" class="d-block w-100" alt="3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+
+
+  <footer>
+      <p> 
+        Conocé nuestra Política de privacidad | ©2023 DitaCode México. Todos los derechos reservados.
+      </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
